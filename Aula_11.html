@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula_11_img_dinamica</title>
+</head>
+<body>
+    <h1>Imagem dinamicas</h1>
+    <p>Tente abrir essa imagem em dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px )" srcset="300x300.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="700x700.png" type="image/png">
+        <img src="1000x1000.png" alt="imagem_gigante">
+    </picture>
+    <hr>
+
+    <h1>Vamos colocar um audio no html</h1>
+    <audio preload="metadata" autoplay controls>
+        <source src="anime-wow-sound-effect.mp3" type="audio/mpeg">
+        <source src="anime-wow-sound-effect.ogg" type="audio/ogg">
+        Seu navegador nao suporta o elemento audio
+</body>
+</html>
