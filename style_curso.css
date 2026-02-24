@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-            background-image: url("46ca8552995a7b64b00c6930be84134e.jpg");
+            background-color: lightgrey;
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -14,6 +14,7 @@ body {
     display: flex;
     align-items: center;
     margin: 0px 0;
+    color: rgb(170, 158, 48);
     
 }
 #end{
